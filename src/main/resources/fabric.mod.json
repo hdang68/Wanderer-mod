@@ -1,0 +1,20 @@
+
+{
+  "schemaVersion": 1,
+  "id": "wanderermod",
+  "version": "1.0.0",
+  "name": "Wanderer Mod",
+  "description": "Adds a group-based ally mob that helps you fight pillagers.",
+  "authors": ["YourName"],
+  "entrypoints": {
+    "main": [
+      "com.example.wanderermod.WandererMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}

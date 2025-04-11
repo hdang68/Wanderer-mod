@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:mob_spawn_settings",
+  "spawners": [
+    {
+      "type": "wanderermod:wanderer",
+      "weight": 10,
+      "minCount": 2,
+      "maxCount": 5
+    }
+  ],
+  "conditions": {
+    "biomes": [
+      "minecraft:plains",
+      "minecraft:forest",
+      "minecraft:taiga"
+    ]
+  }
+}
